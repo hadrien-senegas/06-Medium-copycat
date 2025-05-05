@@ -1,0 +1,72 @@
+body {
+  background-color: #dad7cd;
+  font-family: 'Open Sans', sans-serif;
+  color: #344e41;
+  font-weight: 600;
+  text-align: center;
+}
+
+#home-page-first-image {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+h2 {
+  color: #588157;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #344e41;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
