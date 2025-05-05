@@ -1,0 +1,77 @@
+body {
+  background-color: #dad7cd;
+  font-family: 'Open Sans', sans-serif;
+  color: #344e41;
+  text-align: center;
+  margin: 8%;
+}
+
+.header {
+background-image: url("https://www.guillenphoto.com/data/blog/2013/10-animalier-marcassin-curieux-charente-maritime/images/marcassin-dans-prairie-de-la-charente-maritime-amar-guillen-photographe-1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+width: auto;
+height: 500px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #ff99c8;
+font-size: 30px;
+font-size-adjust: 0.5;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+}
+
+h2 {
+  color: #588157;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #344e41;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
